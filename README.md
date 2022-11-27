@@ -24,13 +24,13 @@ docker-compose build --no-cache
 To use the applications, open up two terminal windows and in the first one run
 
 ```
-docker run --ip 172.17.0.2 -it --rm consoleechoapp-server
+docker run --ip 172.17.0.2 -it --rm console_echo-server
 ```
 
 And then in the second one run 
 
 ```
-docker run --ip 172.17.0.3 -it --rm consoleechoapp-client
+docker run --ip 172.17.0.3 -it --rm console_echo-client
 ```
 
 User can then provide input into terminal running the *consoleechoapp-server* application and it will be echod to *consoleechoapp-client* in real-time. User can enter text, delete text, 
