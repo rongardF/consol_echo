@@ -33,8 +33,8 @@ And then in the second one run
 docker run --ip 172.17.0.3 -it --rm console_echo-client
 ```
 
-User can then provide input into terminal running the *consoleechoapp-server* application and it will be echod to *consoleechoapp-client* in real-time. User can enter text, delete text, 
+User can then provide input into terminal running the *console_echo-server* application and it will be echod to *console_echo-client* in real-time. User can enter text, delete text, 
 start a new line and move around in the text.
 
-To quit the application the user must press **ESCAPE** button in the *consoleechoapp-server* application.
+To quit the application the user must press **ESCAPE** button in the *console_echo-server* application.
 
