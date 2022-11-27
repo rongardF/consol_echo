@@ -3,10 +3,10 @@
 ## Description
 
 This repository contains two separate console applications:
-	- ConsoleServer
-	- ConsoleClient
+- ConsoleServer
+- ConsoleClient
 	
-ConsoleServer is implemented in Python and will accept user input from keyboard and print it onto terminal as well as will echo the input to client application. 
+ConsoleServer is implemented in Python and will accept user input from keyboard and print it onto terminal as well as it will echo the input to client ConsoleClient application. 
 ConsoleClient is implemented in C# and will receive user input from server application and will print it onto terminal in real time. 
 
 ## Installation
@@ -33,8 +33,8 @@ And then in the second one run
 docker run --ip 172.17.0.3 -it --rm consoleechoapp-client
 ```
 
-User can then provide input into terminal runnng the *consoleechoapp-server* application and it will be echoed to *consoleechoapp-client* in real-time. User can enter text, delete text, 
+User can then provide input into terminal running the *consoleechoapp-server* application and it will be echod to *consoleechoapp-client* in real-time. User can enter text, delete text, 
 start a new line and move around in the text.
 
-To quit the application the user must press *ESCAPE* button in the *consoleechoapp-server* application.
+To quit the application the user must press **ESCAPE** button in the *consoleechoapp-server* application.
 
