@@ -14,7 +14,7 @@ ConsoleClient is implemented in C# and will receive user input from server appli
 Clone the repository to your local machine. Navigate into repository directory on local machine and execute docker-compose to create images
 
 ```
-git clone https://github.com/rongardF/consol_echo.git
+git clone https://github.com/rongardF/console_echo.git
 cd console_echo
 docker-compose build --no-cache
 ```
