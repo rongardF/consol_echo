@@ -1,0 +1,25 @@
+version: "3.8"
+
+networks:
+  mynetwork:
+    ipam:
+      config:
+        - subnet: 172.17.0.0/16
+          gateway: 172.17.0.1
+
+services:
+    server:
+        build: ./ConsoleServer
+        stdin_open: true 
+        tty: true 
+        networks:
+            mynetwork:
+                ipv4_address: 172.17.0.2
+    
+    client:
+        build: ./ConsoleClient
+        stdin_open: true 
+        tty: true  
+        networks:
+            mynetwork:
+                ipv4_address: 172.17.0.3
